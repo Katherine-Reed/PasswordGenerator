@@ -1,0 +1,39 @@
+body {
+    background-color: #1f2937;
+    color: white;
+    margin: 0 auto;
+	max-width: 25vw;
+    padding: 1.5rem;
+}
+span, #option1-el, #option2-el {
+    color: #10b981;
+}
+
+button {
+    background-color: #10b981;
+    border: none;
+    border-radius: .25rem;
+    color: white;
+    padding: .5rem;
+}
+
+hr {
+    border: 1px solid #2f3e53;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#option1-el, #option2-el {
+    align-items: center;
+    background-color: #273549;
+    border-radius: .25rem;
+    font-size: 1rem;
+    height: 1.25rem;
+    padding: .5rem;
+    text-align: center;
+    width: 45%;
+}
